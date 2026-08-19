@@ -27,8 +27,8 @@
 ```text
 .
 ├── index.html                          # 表情工坊主程序（完整动效与交互调试面板）
-├── menbot-widget.html      # 纯粹的轻量级组件文件（方便提取嵌入）
-└── menbot-demo.html      # 外部页面嵌入调用示例
+├── menbot-widget.html                  # 纯粹的轻量级组件文件（方便提取嵌入）
+└── menbot-demo.html                    # 外部页面嵌入调用示例
 
 ```
 
