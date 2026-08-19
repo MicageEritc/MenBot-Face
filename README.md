@@ -1,18 +1,4 @@
-这是一份为你量身定制的开源规范 `README.md`，包含了功能亮点、在线演示、目录结构、使用方法以及对原项目的鸣谢声明：
-
-```markdown
 # 🤖 MenBot-Face · 表情工坊
-
-<p align="center">
-  <b>一个基于纯原生 SVG 与弹簧物理动效的交互式数字生命表情库与动效工坊</b><br>
-  灵动微表情 · 39 种心情状态 · 视线跟随 · 零外部依赖
-</p>
-
-<p align="center">
-  <a href="https://menbot-face.pages.dev"><img src="https://img.shields.io/badge/Demo-在线体验-blue?style=flat-square&logo=cloudflare" alt="Demo"></a>
-  <img src="https://img.shields.io/badge/Dependencies-Zero-green?style=flat-square" alt="Zero Dependencies">
-  <img src="https://img.shields.io/badge/License-MIT-orange?style=flat-square" alt="License">
-</p>
 
 ---
 
@@ -20,19 +6,19 @@
 
 **MenBot-Face** 是一个复刻并改进的灵动 AI 机器人表情与交互组件库。项目采用纯原生 Web 技术（Vanilla JS + SVG + CSS），无需任何构建打包步骤，即可在任意网页中嵌入生动、Q 弹的机器人虚拟形象。
 
-- 🌐 **在线预览**：[https://menbot-face.pages.dev](https://menbot-face.pages.dev)
-- 🎯 **致敬来源**：移植与动效算法参考自 [zhulin025/LaoA-GrokBot](https://github.com/zhulin025/LaoA-GrokBot)。
+* 🌐 **在线预览**：[https://menbot-face.pages.dev](https://www.google.com/search?q=https://menbot-face.pages.dev)
+* 🎯 **致敬来源**：移植与动效算法参考自 [zhulin025/LaoA-GrokBot](https://github.com/zhulin025/LaoA-GrokBot)。
 
 ---
 
 ## ✨ 核心特性
 
-- 🎭 **高保真表情资产**：内置 26 套精细采样的矢量表情数据，覆盖 39 种细分状态（生命周期、情绪反应、代理形态、工作循环）。
-- 🌊 **弹簧物理 Morphing**：基于弹簧振子模型（Spring Physics）与贝塞尔平滑算法（Bézier Curve），实现表情切换时的丝滑形变过渡。
-- 👀 **灵动视线跟随**：眼睛根据鼠标在机器人面部的相对坐标产生有限偏移（Gaze Tracking），更具生命感与交互性。
-- 💓 **自发生理特征**：包含自然的周期性微呼吸起伏、随机眨眼动效与点触 Q 弹抖动反馈。
-- 🎨 **自由配色与交互**：支持 10 种身体主题色实时切换、随机文案气泡对话、自动轮播与手动点选模式。
-- ⚡ **轻量纯原生**：单文件开箱即用，零第三方库依赖，极低内存与 CPU 占用。
+* 🎭 **高保真表情资产**：内置 26 套精细采样的矢量表情数据，覆盖 39 种细分状态（生命周期、情绪反应、代理形态、工作循环）。
+* 🌊 **弹簧物理 Morphing**：基于弹簧振子模型（Spring Physics）与贝塞尔平滑算法（Bézier Curve），实现表情切换时的丝滑形变过渡。
+* 👀 **灵动视线跟随**：眼睛根据鼠标在机器人面部的相对坐标产生有限偏移（Gaze Tracking），更具生命感与交互性。
+* 💓 **自发生理特征**：包含自然的周期性微呼吸起伏、随机眨眼动效与点触 Q 弹抖动反馈。
+* 🎨 **自由配色与交互**：支持 10 种身体主题色实时切换、随机文案气泡对话、自动轮播与手动点选模式。
+* ⚡ **轻量纯原生**：单文件开箱即用，零第三方库依赖，极低内存与 CPU 占用。
 
 ---
 
@@ -55,7 +41,7 @@
 克隆本仓库到本地，直接用浏览器打开 `index.html` 即可：
 
 ```bash
-git clone [https://github.com/MicageEritc/MenBot-Face.git](https://github.com/MicageEritc/MenBot-Face.git)
+git clone https://github.com/MicageEritc/MenBot-Face.git
 cd MenBot-Face
 # 双击 index.html 或使用本地静态服务器打开
 
@@ -92,7 +78,3 @@ $$\text{acc} = -k \cdot (x - x_{\text{target}}) - d \cdot v$$
 ## 📄 开源协议
 
 本项目采用 [MIT License](https://www.google.com/search?q=LICENSE) 协议开源。
-
-```
-
-```
