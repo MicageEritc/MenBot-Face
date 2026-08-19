@@ -6,7 +6,7 @@
 
 **MenBot-Face** 是一个复刻并改进的灵动 AI 机器人表情与交互组件库。项目采用纯原生 Web 技术（Vanilla JS + SVG + CSS），无需任何构建打包步骤，即可在任意网页中嵌入生动、Q 弹的机器人虚拟形象。
 
-* 🌐 **在线预览**：[https://menbot-face.pages.dev](https://www.google.com/search?q=https://menbot-face.pages.dev)
+* 🌐 **在线预览**：[https://menbot-face.pages.dev](https://menbot-face.pages.dev)
 * 🎯 **致敬来源**：移植与动效算法参考自 [zhulin025/LaoA-GrokBot](https://github.com/zhulin025/LaoA-GrokBot)。
 
 ---
