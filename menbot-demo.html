@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MenBot 表情轮播 · 嵌入演示</title>
+<style>
+  body{font-family:-apple-system,"PingFang SC",sans-serif;background:#f5f5f7;color:#1d1d1f;margin:0;padding:40px 20px;}
+  h1{font-size:28px;margin:0 0 6px;}
+  p.desc{color:#86868b;font-size:14px;margin:0 0 28px;}
+  .row{display:flex;gap:40px;flex-wrap:wrap;align-items:flex-start;}
+  .box{background:#fff;border:1px solid #e5e5e7;border-radius:16px;padding:24px;text-align:center;}
+  .box h3{font-size:13px;color:#86868b;font-weight:600;margin:0 0 14px;}
+  code{display:block;background:#1d1d1f;color:#9be1ff;font-size:12px;padding:14px 16px;border-radius:10px;margin-top:18px;line-height:1.8;white-space:pre-wrap;word-break:break-all;}
+</style>
+</head>
+<body>
+  <h1>MenBot 表情轮播 · 嵌入演示</h1>
+  <p class="desc">纯表情 · 自动轮播 · 透明背景 · 参数可调。任意网页通过 iframe 一行代码即可嵌入</p>
+  <div class="row">
+    <div class="box"><h3>默认 120px</h3><iframe src="menbot-widget.html" width="120" height="120" style="border:none" loading="lazy"></iframe></div>
+    <div class="box"><h3>小号 90px</h3><iframe src="menbot-widget.html?size=90&speed=2200" width="90" height="90" style="border:none" loading="lazy"></iframe></div>
+    <div class="box"><h3>蓝色 120px</h3><iframe src="menbot-widget.html?size=120&color=%232f86ed&random=1" width="120" height="120" style="border:none" loading="lazy"></iframe></div>
+  </div>
+  <code>&lt;!-- 一行代码嵌入（把 src 换成你的线上地址即可） --&gt;
+&lt;iframe src="menbot-widget.html?size=120&amp;speed=2800&amp;color=%230071e3&amp;random=1"
+        width="120" height="120" style="border:none" loading="lazy"&gt;&lt;/iframe&gt;
+
+参数说明：
+  size   组件像素尺寸（默认 120）
+  speed  轮播间隔毫秒（默认 2800）
+  color  身体颜色 16 进制，需 URL 编码（# 写 %23）
+  random 1=随机表情轮播，0=顺序轮播（默认 1）
+
+开源协议：MIT，可自由使用/修改/商用，无需署名。</code>
+</body>
+</html>
